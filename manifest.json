@@ -1,0 +1,22 @@
+{
+  "name": "webEditor",
+  "description": "這是一款由貓虎皮所開發的網頁「編輯(破壞)」外掛!",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "128": "/img/webEditor.png", 
+    "16": "/img/webEditor.png",
+    "48": "/img/webEditor.png"
+  },
+  "content_scripts": [ {
+    "all_frames": false,
+    "js": [ "webEditor.js" ],
+    "matches": [ "http://*/*", "https://*/*" ],
+    "run_at": "document_end"
+  } ],
+  "homepage_url": "https://sites.google.com/view/tabstudio-webEditor/",
+  "incognito": "spanning",
+  "omnibox": {
+     "keyword": "kiwi"
+  }
+}
