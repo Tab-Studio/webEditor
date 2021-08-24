@@ -1,7 +1,7 @@
 {
   "name": "webEditor",
   "description": "這是一款由貓虎皮所開發的網頁「編輯(破壞)」外掛!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "icons": {
     "128": "/img/webEditor.png", 
