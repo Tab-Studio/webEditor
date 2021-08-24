@@ -75,7 +75,7 @@ else if(WEDiv.getAttribute('M')[2] == 1){WEQt = 5;}
 WEDiv.setAttribute('qTotal', WEQt);
 WEDiv.setAttribute('aTotal', WEQt);
 WEMD.setAttribute('id', 'WEMD')
-WEMD.style.backgroundImage = 'url(\'https://maohupi.riarock.com/web/tool/webEditor/img/md.png\')';
+WEMD.style.backgroundImage = 'url(\'https://tab-studio.github.io/webEditor/img/md.png\')';
 WEMD.style.backgroundRepeat = 'no-repeat';
 WEMD.style.backgroundSize = 'cover';
 WEMD.style.zIndex = '99999999999999999999999999999999999';
@@ -90,7 +90,7 @@ for(let i = 0; i < 8; i++){
 	WEBtn[i].style.borderRadius = 0.5*vw()+'px';
 	WEBtn[i].style.border = 'none';
 	WEBtn[i].style.margin = '0px';
-	WEBtn[i].style.backgroundImage = `url('https://maohupi.riarock.com/web/tool/webEditor/img/btn${i+1}.png')`;
+	WEBtn[i].style.backgroundImage = `url('https://tab-studio.github.io/webEditor/img/btn${i+1}.png')`;
 	WEBtn[i].style.backgroundRepeat = 'no-repeat';
 	WEBtn[i].style.backgroundSize = '100%';
 	WEBtn[i].style.gridArea = `1/${i+2}/2/${i+3}`;
